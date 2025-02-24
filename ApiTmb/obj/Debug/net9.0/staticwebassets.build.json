@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Kwt4iPEFVWnqgZze8tAtXX9teGedwLq8lmS6BH8ZONU=",
+  "Source": "ApiTmb",
+  "BasePath": "_content/ApiTmb",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
