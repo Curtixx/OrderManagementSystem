@@ -6,3 +6,7 @@ export const convertValue = (value: string) => {
         currency: "BRL",
     }).format(numberValue);
 };
+
+export const formatDate = (date: string) => {
+    return new Date(date).toLocaleDateString('pt-BR');
+};

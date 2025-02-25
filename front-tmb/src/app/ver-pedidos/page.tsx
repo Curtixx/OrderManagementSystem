@@ -9,7 +9,7 @@ import {
     TableHeader,
     TableRow,
 } from "@/components/ui/table"
-import { convertValue } from "@/utils/convertValue";
+import { convertValue, formatDate } from "@/utils/convertValue";
 
 import { Trash2 } from "lucide-react"
 import { getAllOrders } from "./getAllOrders";
@@ -54,7 +54,7 @@ export default async function VerPedido() {
                                     <TableCell className="font-medium">{order.client}</TableCell>
                                     <TableCell>{convertValue(String(order.value.toFixed(2)))}</TableCell>
                                     <TableCell>{order.status}</TableCell>
-                                    <TableCell>{order.created_at}</TableCell>
+                                    <TableCell>{formatDate(order.created_at)}</TableCell>
                                     <TableCell>
                                         <div className="flex gap-2">
                                             <Alert
