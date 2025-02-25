@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\curti\\OneDrive\\Documentos\\TMB\\ApiTmb\\ApiTmb.csproj": {}
+    "C:\\Users\\curti\\OneDrive\\Documentos\\TMB\\OrderManagementSystem\\ApiTmb\\ApiTmb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\curti\\OneDrive\\Documentos\\TMB\\ApiTmb\\ApiTmb.csproj": {
+    "C:\\Users\\curti\\OneDrive\\Documentos\\TMB\\OrderManagementSystem\\ApiTmb\\ApiTmb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\curti\\OneDrive\\Documentos\\TMB\\ApiTmb\\ApiTmb.csproj",
+        "projectUniqueName": "C:\\Users\\curti\\OneDrive\\Documentos\\TMB\\OrderManagementSystem\\ApiTmb\\ApiTmb.csproj",
         "projectName": "ApiTmb",
-        "projectPath": "C:\\Users\\curti\\OneDrive\\Documentos\\TMB\\ApiTmb\\ApiTmb.csproj",
+        "projectPath": "C:\\Users\\curti\\OneDrive\\Documentos\\TMB\\OrderManagementSystem\\ApiTmb\\ApiTmb.csproj",
         "packagesPath": "C:\\Users\\curti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\curti\\OneDrive\\Documentos\\TMB\\ApiTmb\\obj\\",
+        "outputPath": "C:\\Users\\curti\\OneDrive\\Documentos\\TMB\\OrderManagementSystem\\ApiTmb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\curti\\AppData\\Roaming\\NuGet\\NuGet.Config",
