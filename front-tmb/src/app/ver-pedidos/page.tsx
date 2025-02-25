@@ -12,6 +12,7 @@ import {
 import { convertValue } from "@/utils/convertValue";
 
 import { Trash2 } from "lucide-react"
+import { getAllOrders } from "./getAllOrders";
 
 interface OrdersParams {
     id: string;
@@ -23,14 +24,8 @@ interface OrdersParams {
 }
 
 export default async function VerPedido() {
-    const request = await fetch(
-        "http://api-oms-tmb:8080/orders",
-        {
-            method: "GET",
-        }
-    );
 
-    const orders: OrdersParams[] = await request.json();
+    const orders: OrdersParams[] = await getAllOrders();
 
     return (
         <div className="container mx-auto py-10">
