@@ -6,7 +6,7 @@ import { formSchema } from "./components/schema"
 type Data = z.infer<typeof formSchema>
 export async function updateOrder(id: string, data: Data) {
     console.log(data)
-    const req = await fetch(`http://localhost:8080/orders/${id}`, {
+    const req = await fetch(`http://api-oms-tmb:8080/orders/${id}`, {
         method: "PATCH",
         headers: {
             "Content-Type": "application/json",

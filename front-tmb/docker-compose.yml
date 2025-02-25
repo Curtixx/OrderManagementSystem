@@ -1,0 +1,30 @@
+name: front-tmb
+
+services:
+    frontend:
+        container_name: front-tmb
+        build: .
+        image: henriquecurtis/front-tmb:latest
+        restart: always
+        env_file: .env
+        environment:
+            NEXT_PUBLIC_SITE_NAME: "Sistema de Pedido"
+            NEXT_PUBLIC_SITE_URL: http://127.0.0.1:3000
+            NEXT_PUBLIC_API_URL: http:/api-oms-tmb:8080
+            NODE_ENV: development
+        volumes:
+            - ./src:/front-tmb/src
+            - ./package.json:/front-tmb/package.json
+            - ./package-lock.json:/front-tmb/package-lock.json
+            - ./.env:/front-tmb/.env
+            - ./public:/front-tmb/public/
+        ports:
+            - "3000:3000"
+        networks:
+            - apitmb
+
+networks:
+    apitmb:
+        name: "Api TMB"
+        driver: bridge
+        external: false

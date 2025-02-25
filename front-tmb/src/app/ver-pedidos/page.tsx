@@ -24,7 +24,7 @@ interface OrdersParams {
 
 export default async function VerPedido() {
     const request = await fetch(
-        "http://localhost:8080/orders",
+        "http://api-oms-tmb:8080/orders",
         {
             method: "GET",
         }

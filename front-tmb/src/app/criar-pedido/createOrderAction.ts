@@ -7,7 +7,7 @@ interface OrdersParams {
 }
 
 export async function createOrder({ client, product, value }: OrdersParams) {
-    const req = await fetch('http://localhost:8080/orders', {
+    const req = await fetch('http://api-oms-tmb:8080/orders', {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
