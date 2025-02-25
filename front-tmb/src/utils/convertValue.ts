@@ -8,5 +8,7 @@ export const convertValue = (value: string) => {
 };
 
 export const formatDate = (date: string) => {
-    return new Date(date).toLocaleDateString('pt-BR');
+    return new Date(date).toLocaleDateString("pt-BR", {
+        timeZone: "America/Sao_Paulo",
+    });
 };
