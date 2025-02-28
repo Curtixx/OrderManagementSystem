@@ -1,6 +1,6 @@
 "use client"
 
-import { deleteOrder } from "@/app/ver-pedidos/deleteOrderAction"
+import { deleteOrder } from "@/app/ver-pedidos/actions/deleteOrderAction"
 import {
     AlertDialog,
     AlertDialogAction,

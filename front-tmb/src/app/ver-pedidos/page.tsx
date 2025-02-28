@@ -12,7 +12,7 @@ import {
 import { convertValue, formatDate } from "@/utils/convertValue";
 
 import { Trash2 } from "lucide-react"
-import { getAllOrders } from "./getAllOrders";
+import { getAllOrders } from "./actions/getAllOrders";
 
 interface OrdersParams {
     id: string;

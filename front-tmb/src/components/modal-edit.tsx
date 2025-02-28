@@ -16,12 +16,12 @@ import { Label } from "@/components/ui/label"
 import { Pencil } from "lucide-react"
 import { formSchema } from "@/app/ver-pedidos/components/schema"
 import { z } from "zod"
-import { updateOrder } from "@/app/ver-pedidos/updateOrderAction"
 import { toast } from "sonner"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
 import { convertValue } from "@/utils/convertValue"
+import { updateOrder } from "@/app/ver-pedidos/actions/updateOrderAction"
 
 interface ModalEditProps {
     id: string,
